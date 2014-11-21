@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Selenium.YSlow")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Capture YSlow stats in C# Selenium Tests")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Faisal Mansoor")]
 [assembly: AssemblyProduct("Selenium.YSlow")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]

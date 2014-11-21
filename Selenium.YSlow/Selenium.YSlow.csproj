@@ -65,9 +65,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="install.ps1" />
     <Compile Include="YSlowBeacon.cs" />
     <Compile Include="YSlowPageStats.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Selenium.YSlow.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>$title$</title>
+        <authors>Faisal Mansoor</authors>        
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Capture YSlow stats in C# Selenium Tests</description>
+        <copyright>Copyright 2014</copyright>
+        <dependencies>
+            <dependency id="Anna" version="1.0.1007" />
+            <dependency id="Newtonsoft.Json" version="6.0.6" />
+            <dependency id="Selenium.Support" version="2.44.0" />
+        </dependencies>
+    </metadata>
+    <files>
+      <file src="bin\Release\Selenium.YSlow.dll" target="lib\net45\" />
+      <file src="bin\Release\Selenium.YSlow.pdb" target="lib\net45\" />
+      <file src="Plugins\*.*" target="content\net45\Plugins\" />
+      <file src="install.ps1" target="tools\net45\" />
+    </files>
+</package>
